@@ -1,9 +1,25 @@
 # Change Log
 
+<a name="0.0.3"></a>
+## [0.0.3](https://github.com/design4pro/sassdoc-webpack-plugin/tree/v0.0.3) (2017-08-04)
+
+[Full Changelog](https://github.com/design4pro/sassdoc-webpack-plugin/compare/v0.0.2...v0.0.3)
+
+
+### Bug Fixes
+
+* **package:** run plugin after compile but before done ([4ae4f53](https://github.com/design4pro/sassdoc-webpack-plugin/commit/4ae4f53))<br>
+
+
 <a name="0.0.2"></a>
 ## [0.0.2](https://github.com/design4pro/sassdoc-webpack-plugin/tree/v0.0.2) (2017-07-27)
 
 [Full Changelog](https://github.com/design4pro/sassdoc-webpack-plugin/compare/v0.0.1...v0.0.2)
+
+
+### Chores
+
+* **release:** 0.0.2 ([e8c9ab9](https://github.com/design4pro/sassdoc-webpack-plugin/commit/e8c9ab9))<br>
 
 
 ### Bug Fixes
