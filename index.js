@@ -14,7 +14,7 @@ function SassDocPlugin(options) {
 SassDocPlugin.prototype.apply = function (compiler) {
   var self = this;
 
-  compiler.plugin('emit', function (compilation, callback) {
+  compiler.plugin('after-emit', function (compilation, callback) {
     sassdoc(self.options.source, self.options.config)
       .then(function () {
         console.log('Your documentation has been generated!');
