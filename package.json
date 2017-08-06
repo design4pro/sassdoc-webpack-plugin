@@ -1,6 +1,6 @@
 {
   "name": "sassdoc-webpack-plugin",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "url": "https://github.com/design4pro/sassdoc-webpack-plugin.git"
   },
   "bugs": {
-    "url": "https://github.com/design4pro/sassdoc-webpack-plugin/issues"
+    "url": "https://github.com/design4pro/sassdoc-webpack-plugin/issues/"
   },
   "homepage": "https://github.com/design4pro/sassdoc-webpack-plugin#readme",
   "config": {
