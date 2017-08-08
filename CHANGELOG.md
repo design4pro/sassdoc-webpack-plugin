@@ -1,9 +1,25 @@
 # Change Log
 
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/design4pro/sassdoc-webpack-plugin/tree/v0.1.0) (2017-08-08)
+
+[Full Changelog](https://github.com/design4pro/sassdoc-webpack-plugin/compare/v0.0.5...v0.1.0)
+
+
+### Features
+
+* **package:** read config from options or from .sassdocrc file ([37dab38](https://github.com/design4pro/sassdoc-webpack-plugin/commit/37dab38))<br>
+
+
 <a name="0.0.5"></a>
 ## [0.0.5](https://github.com/design4pro/sassdoc-webpack-plugin/tree/v0.0.5) (2017-08-04)
 
 [Full Changelog](https://github.com/design4pro/sassdoc-webpack-plugin/compare/v0.0.4...v0.0.5)
+
+
+### Chores
+
+* **release:** 0.0.5 ([c7a9fa8](https://github.com/design4pro/sassdoc-webpack-plugin/commit/c7a9fa8))<br>
 
 
 ### Bug Fixes
