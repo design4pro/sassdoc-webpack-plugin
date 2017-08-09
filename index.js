@@ -1,11 +1,23 @@
+"use strict";
+
 var sassdoc= require('sassdoc');
+var yaml = require('js-yaml');
+var path = require('path');
+var fs = require('fs');
 
 function SassDocPlugin(options) {
   if (!options) {
-    throw 'sassdoc webpack plugin: options is not defined. should be an object with at least "source"';
+    try {
+      // Load .sassdocrc configuration
+      options = yaml.safeLoad(fs.readFileSync(path.join(process.cwd(), '.sassdocrc'), 'utf-8'));
+    } catch (err) {
+      console.warn(err);
+      throw 'Invalid or no .sassdocrc found in: ' + process.cwd();
+    }
   }
-  if (!options.source) {
-    throw 'sassdoc webpack plugin: source is not defined';
+
+  if (!options.src) {
+    throw 'sassdoc webpack plugin: src is not defined';
   }
 
   this.options = options;
@@ -15,7 +27,7 @@ SassDocPlugin.prototype.apply = function (compiler) {
   var self = this;
 
   compiler.plugin('after-emit', function (compilation, callback) {
-    sassdoc(self.options.source, self.options.config)
+    sassdoc(self.options.src, self.options)
       .then(function () {
         console.log('Your documentation has been generated!');
         callback();
