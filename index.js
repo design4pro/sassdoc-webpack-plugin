@@ -14,6 +14,13 @@ function SassDocPlugin(options) {
       console.warn(err);
       throw 'Invalid or no .sassdocrc found in: ' + process.cwd();
     }
+  } else if (options.src) {
+    try {
+      // Load .sassdocrc configuration from source directory
+      options = yaml.safeLoad(fs.readFileSync(path.join(options.src, '.sassdocrc'), 'utf-8'));
+    } catch (err) {
+      console.warn(err);
+    }
   }
 
   if (!options.src) {
