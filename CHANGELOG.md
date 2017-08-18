@@ -1,30 +1,31 @@
 # Change Log
 
-<a name="0.1.1"></a>
-## [0.1.1](https://github.com/design4pro/sassdoc-webpack-plugin/tree/v0.1.1) (2017-08-08)
+<a name="0.1.2"></a>
+## [0.1.2](https://github.com/design4pro/sassdoc-webpack-plugin/tree/v0.1.2) (2017-08-09)
 
-[Full Changelog](https://github.com/design4pro/sassdoc-webpack-plugin/compare/v0.1.0...v0.1.1)
+[Full Changelog](https://github.com/design4pro/sassdoc-webpack-plugin/compare/v0.0.6...v0.1.2)
 
 
 ### Bug Fixes
 
-* **package:** throw fix ([fbc2f83](https://github.com/design4pro/sassdoc-webpack-plugin/commit/fbc2f83))<br>
+* **package:** emit fix ([861f816](https://github.com/design4pro/sassdoc-webpack-plugin/commit/861f816))<br>
 
 
-<a name="0.1.0"></a>
-# [0.1.0](https://github.com/design4pro/sassdoc-webpack-plugin/tree/v0.1.0) (2017-08-08)
+<a name="0.0.6"></a>
+## [0.0.6](https://github.com/design4pro/sassdoc-webpack-plugin/tree/v0.0.6) (2017-08-06)
 
-[Full Changelog](https://github.com/design4pro/sassdoc-webpack-plugin/compare/v0.0.5...v0.1.0)
+[Full Changelog](https://github.com/design4pro/sassdoc-webpack-plugin/compare/v0.0.5...v0.0.6)
 
 
 ### Chores
 
-* **release:** 0.1.0 ([912b172](https://github.com/design4pro/sassdoc-webpack-plugin/commit/912b172))<br>
+* **package:** gitignore update, readme update ([eccfa78](https://github.com/design4pro/sassdoc-webpack-plugin/commit/eccfa78))<br>
+* **release:** 0.0.6 ([ad20ea1](https://github.com/design4pro/sassdoc-webpack-plugin/commit/ad20ea1))<br>
 
 
-### Features
+### Bug Fixes
 
-* **package:** read config from options or from .sassdocrc file ([37dab38](https://github.com/design4pro/sassdoc-webpack-plugin/commit/37dab38))<br>
+* **package:** run after emit ([5026eb8](https://github.com/design4pro/sassdoc-webpack-plugin/commit/5026eb8))<br>
 
 
 <a name="0.0.5"></a>
