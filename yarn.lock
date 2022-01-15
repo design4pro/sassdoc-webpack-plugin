@@ -672,7 +672,7 @@ cz-conventional-changelog@2.1.0:
 
 cz-release-me@1.6.1:
   version "1.6.1"
-  resolved "http://registry.npmjs.org/cz-release-me/-/cz-release-me-1.6.1.tgz#a5af8d416e0cc09c58ca7e015a9051a22257e444"
+  resolved "https://registry.npmjs.org/cz-release-me/-/cz-release-me-1.6.1.tgz#a5af8d416e0cc09c58ca7e015a9051a22257e444"
   dependencies:
     chalk "^2.0.0"
     editor "^1.0.0"
@@ -888,7 +888,7 @@ extend@~3.0.2:
 
 external-editor@^2.1.0:
   version "2.2.0"
-  resolved "http://registry.npmjs.org/external-editor/-/external-editor-2.2.0.tgz#045511cfd8d133f3846673d1047c154e214ad3d5"
+  resolved "https://registry.npmjs.org/external-editor/-/external-editor-2.2.0.tgz#045511cfd8d133f3846673d1047c154e214ad3d5"
   dependencies:
     chardet "^0.4.0"
     iconv-lite "^0.4.17"
@@ -1392,7 +1392,7 @@ inquirer@6.2.0:
 
 inquirer@^5.0.0:
   version "5.2.0"
-  resolved "http://registry.npmjs.org/inquirer/-/inquirer-5.2.0.tgz#db350c2b73daca77ff1243962e9f22f099685726"
+  resolved "https://registry.npmjs.org/inquirer/-/inquirer-5.2.0.tgz#db350c2b73daca77ff1243962e9f22f099685726"
   dependencies:
     ansi-escapes "^3.0.0"
     chalk "^2.0.0"
@@ -1979,8 +1979,8 @@ markdown@~0.5.0:
     nopt "~2.1.1"
 
 marked@^0.3.0:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
+  version "0.3.19"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
 
 md5-hex@^2.0.0:
   version "2.0.0"
@@ -3402,7 +3402,7 @@ yargs-parser@^9.0.2:
 
 yargs@11.1.0:
   version "11.1.0"
-  resolved "http://registry.npmjs.org/yargs/-/yargs-11.1.0.tgz#90b869934ed6e871115ea2ff58b03f4724ed2d77"
+  resolved "https://registry.npmjs.org/yargs/-/yargs-11.1.0.tgz#90b869934ed6e871115ea2ff58b03f4724ed2d77"
   dependencies:
     cliui "^4.0.0"
     decamelize "^1.1.1"
